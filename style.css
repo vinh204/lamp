@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 0 8%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2a30a;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 12px 8% 8px 8%;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.list-nav li {
+    font-size: 22px;
+    padding: 22px 32px;
+}
+
+.list-nav li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.nav-bar li {
+    padding: 22px 16px;
+}
+
+.nav-bar a {
+    font-size: 24px;
+    color: #000;
+}
+
+.content {
+    padding-top: 112px;
+}
+
+.slider img {
+    width: 100%;
+    height: 450px;
+}
+
+.content .list-ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    color: #fff;
+}
+
+.content .list-ads a {
+    width: 25%;
+    height: 64px;
+    margin: 0 24px;
+    font-size: 16px;
+    padding: 0 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan .title{
+    text-align: center;
+    padding-top: 56px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.slogan p {
+    text-align: center;
+    padding: 12px;
+}
+
+#product {
+    padding-top: 108px;
+}
+
+.new-product .title {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 18px 0 0 0;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.list-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items img {
+    width: 100%;
+    height: 225px;
+}
+
+.list-items {
+    margin: 16px;
+    width: 25%;
+    border: 1px solid #000;
+}
+
+.name-prd {
+    margin-top: 32px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price {
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-contr {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items ul {
+    list-style-type: none;
+}
+
+.nav-contr li:first-child {
+    background-color: #397e17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-contr li:last-child {
+    background-color: #9c321a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-contr li {
+    width: 50%;
+    padding: 8px 2px;
+    cursor: pointer;
+}
+
+.nav-contr li i {
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.content-news {
+    display: flex;
+    margin-top: 16px;
+}
+
+.content-news .item {
+    width: 50%;
+}
+
+.content-news img {
+    width: 100%;
+}
+
+.content-news .titl {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15%;
+    margin-left: 32px;
+    display: block;
+    color: #000;
+}
+
+.content-news p {
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+#footer {
+    margin-top: 32px;
+    height: 108px;
+    background-color: #f2a30a;
+}
+
+#footer p {
+    padding: 8px 8% 0 8%;
+    font-size: 20px;
+}
